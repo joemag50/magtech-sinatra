@@ -9,6 +9,11 @@
   </head>
 
   <body>
-    <%= yield %>
+    <%= erb :nav %>
+    <div class="container">
+      <div class="row mt-5">
+        <%= yield %>
+      </div>
+    </div>
   </body>
 </html>

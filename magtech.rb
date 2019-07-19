@@ -4,6 +4,14 @@ get '/' do
   erb :index
 end
 
+get '/about' do
+  erb :about
+end
+
+get '/features' do
+  erb :features
+end
+
 not_found do
-  'This is nowhere to be found.'
+  erb :error
 end
