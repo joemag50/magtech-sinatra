@@ -1,0 +1,2 @@
+# magtech-sinatra
+Sinatra site
