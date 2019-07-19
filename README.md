@@ -1,2 +1,2 @@
-# magtech-sinatra
-Sinatra site
+# Magtech
+Site made in Sinatra
